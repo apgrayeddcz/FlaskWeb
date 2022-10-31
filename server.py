@@ -438,4 +438,5 @@ if __name__ == '__main__':
   app = flask.Flask(__name__)
   api = flask_restful.Api(app)
   api.add_resource(class_test, '/', '//')
-  app.run(host = '0.0.0.0', port = 5000 ,debug=True, ssl_context=('cert.pem', 'key.pem'))
+  # app.run(host = '0.0.0.0', port = 5000 ,debug=True, ssl_context=('cert.pem', 'key.pem'))
+  app.run(host = '0.0.0.0', port = 5000 ,debug=True)
