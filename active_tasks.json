@@ -1,0 +1,60 @@
+{
+    "5cb4a2b3-382b-42f3-bbff-58d0d691db06": {
+        "id": "5cb4a2b3-382b-42f3-bbff-58d0d691db06",
+        "platform": "SmmLaba",
+        "social": "vk",
+        "type_task": "like",
+        "link": "https://vk.com/wall-69467117_334",
+        "status": "cancelled",
+        "status_count": {
+            "completed": 1,
+            "total": 50
+        },
+        "last_action": "28.10.2022 19:29:34",
+        "pause": 10,
+        "bots_done": [
+            10
+        ],
+        "bots_in_work": [],
+        "errors": []
+    },
+    "4313daaf-6eaf-410a-9a25-706184f50d96": {
+        "id": "4313daaf-6eaf-410a-9a25-706184f50d96",
+        "platform": "SmmLaba",
+        "social": "vk",
+        "type_task": "like",
+        "link": "https://vk.com/wall-69467117_334",
+        "status": "in_work",
+        "status_count": {
+            "completed": 3,
+            "ordered": 50,
+            "total": 51
+        },
+        "last_action": "29.10.2022 00:03:09",
+        "pause": 14,
+        "bots_done": [
+            4,
+            10
+        ],
+        "bots_in_work": [],
+        "errors": []
+    },
+    "978738fb-0d6a-41e7-a460-e10eb070585a": {
+        "id": "978738fb-0d6a-41e7-a460-e10eb070585a",
+        "platform": "SmmLaba",
+        "social": "vk",
+        "type_task": "like",
+        "link": "https://m.vk.com/wall-69467117_278",
+        "status": "cancelled",
+        "status_count": {
+            "completed": 1,
+            "ordered": 60,
+            "total": 60
+        },
+        "last_action": "29.10.2022 00:09:03",
+        "pause": 11,
+        "bots_done": [],
+        "bots_in_work": [],
+        "errors": []
+    }
+}

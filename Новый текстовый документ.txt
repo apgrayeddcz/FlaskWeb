@@ -1,0 +1,1 @@
+ns1.thehost.com.ua ns2.thehost.com.ua ns3.thehost.com.ua ns4.thehost.com.ua
