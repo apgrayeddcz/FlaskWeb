@@ -51,8 +51,8 @@ platforms = {
   'test': '1',
   'MAIN': 'd93a712c-0643-420c-b575-01af693d6cfc',
 }
-print()
 bots = load_json(f"{filelink}/bots_list.json")
+print(bots)
 socials = {
   'vk': {
     'type_tasks': [
