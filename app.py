@@ -10,6 +10,7 @@ import random
 
 filename = str(os.path.basename(sys.argv[0]))
 filelink = str(__file__)[:-(len(filename))].replace('/ap','')
+filelink = 'templates/'
 def get_key_by_value(dict_, value):
   return list(dict_.keys())[list(dict_.values()).index(value)]
 def is_number(string, type_number):
@@ -50,6 +51,7 @@ platforms = {
   'test': '1',
   'MAIN': 'd93a712c-0643-420c-b575-01af693d6cfc',
 }
+print()
 bots = load_json(f"{filelink}/bots_list.json")
 socials = {
   'vk': {
