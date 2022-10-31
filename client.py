@@ -2,7 +2,7 @@ import requests
 
 if __name__ == '__main__':
   answer = requests.post(
-    'http://142.132.221.181:5000',
+    'https://server-ql6o-main-7ykqoolpza-wm.a.run.app',
     json = {
       # 'key': "srizametov@vk.com",
       'key': 'd60cb9d2-b0d1-40b3-8e64-c0715eda0326',
@@ -19,4 +19,4 @@ if __name__ == '__main__':
     verify = False
   )
   answer.encoding = 'utf-8'
-  print(answer.json())
+  print(answer)
