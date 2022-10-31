@@ -9,7 +9,7 @@ import datetime
 import random
 
 filename = str(os.path.basename(sys.argv[0]))
-filelink = str(__file__)[:-(len(filename))]
+filelink = str(__file__)[:-(len(filename))].replace('/ap','')
 def get_key_by_value(dict_, value):
   return list(dict_.keys())[list(dict_.values()).index(value)]
 def is_number(string, type_number):
